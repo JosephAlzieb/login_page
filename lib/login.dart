@@ -50,6 +50,7 @@ class _LoginPgaeState extends State<LoginPgae> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 15.0),
                   child: TextFormField(
+                    obscureText: true,
                     keyboardType: TextInputType.visiblePassword,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(

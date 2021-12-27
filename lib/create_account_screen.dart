@@ -76,6 +76,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: TextFormField(
+                  obscureText: true,
                   keyboardType: TextInputType.visiblePassword,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
@@ -89,6 +90,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: TextFormField(
+                  obscureText: true,
                   keyboardType: TextInputType.visiblePassword,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
