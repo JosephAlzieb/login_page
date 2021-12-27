@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'create_account_screen.dart';
+
 class LoginPgae extends StatefulWidget {
   const LoginPgae({Key? key}) : super(key: key);
 
@@ -173,6 +175,12 @@ class _LoginPgaeState extends State<LoginPgae> {
                         style: TextStyle(fontSize: 15, color: Colors.blue),
                       ),
                       onPressed: () {
+
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => CreateAccountScreen()));
+
                       },
                     ),
                   ],
