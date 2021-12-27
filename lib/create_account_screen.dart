@@ -24,7 +24,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
               const Text(
                 "Let's get started!",
                 style: TextStyle(
-                  fontSize: 35,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -33,8 +33,9 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 "Create an account to Q Allure to get all features",
                 style: TextStyle(color: Colors.grey, fontSize: 15),
               ),
+              const SizedBox(height: 10),
               Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(10.0),
                 child: TextFormField(
                   keyboardType: TextInputType.name,
                   decoration: InputDecoration(
@@ -47,7 +48,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: TextFormField(
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
@@ -60,7 +61,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(10.0),
                 child: TextFormField(
                   keyboardType: TextInputType.phone,
                   decoration: InputDecoration(
@@ -73,7 +74,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: TextFormField(
                   keyboardType: TextInputType.visiblePassword,
                   decoration: InputDecoration(
@@ -86,7 +87,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(10.0),
                 child: TextFormField(
                   keyboardType: TextInputType.visiblePassword,
                   decoration: InputDecoration(
@@ -99,9 +100,9 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(40.0),
+                padding: const EdgeInsets.symmetric(horizontal:10.0),
                 child: MaterialButton(
-                  height: 50,
+                  height: 45,
                   shape: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(25),
                   ),
@@ -109,7 +110,6 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                   onPressed: () {},
                   child: Container(
                     alignment: Alignment.center,
-                    height: 50,
                     width: 160,
                     child: const Text(
                       "CREATE",
@@ -122,9 +122,8 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40.0),
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 child: Row(
                   children: [
                     const Text(
