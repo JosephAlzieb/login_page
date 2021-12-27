@@ -18,22 +18,22 @@ class _LoginPgaeState extends State<LoginPgae> {
               children: [
                 const Image(
                   image: AssetImage("images/login.jpg"),
-                  height: 240,
+                  height: 140,
                   width: double.infinity,
                 ),
                 const Text(
                   "Welcome back!",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 35,
+                    fontSize: 25,
                   ),
                 ),
                 const Text(
                   "Log in to your existant account of Q Allure",
-                  style: TextStyle(fontSize: 16, color: Colors.grey),
+                  style: TextStyle(fontSize: 15, color: Colors.grey),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(20.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: TextFormField(
                     keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
@@ -46,7 +46,7 @@ class _LoginPgaeState extends State<LoginPgae> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 15.0),
                   child: TextFormField(
                     keyboardType: TextInputType.visiblePassword,
                     decoration: InputDecoration(
@@ -75,7 +75,7 @@ class _LoginPgaeState extends State<LoginPgae> {
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: MaterialButton(
-                    height: 50,
+                    height: 40,
                     shape: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(25),
                     ),
@@ -96,14 +96,13 @@ class _LoginPgaeState extends State<LoginPgae> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 10),
                 const Text("or contact using"),
                 const SizedBox(height: 10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     MaterialButton(
-                      height: 40,
+                      height: 35,
                       shape: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
@@ -132,7 +131,7 @@ class _LoginPgaeState extends State<LoginPgae> {
                     ),
                     const SizedBox(width: 20),
                     MaterialButton(
-                      height: 40,
+                      height: 35,
                       shape: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
@@ -161,7 +160,6 @@ class _LoginPgaeState extends State<LoginPgae> {
                     ),
                   ],
                 ),
-                const SizedBox(height: 30),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
